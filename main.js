@@ -116,8 +116,8 @@ map.on('click', function(e) {
     }
     if(feature.getGeometry().getType()== "Polygon"){
       console.log(feature)
-      showCardBuilding(feature.get("name"),feature.get("marker-symbol"),feature.H.acronym,
-        "building/" +feature.H.image,"assets/floorplan/"+feature.H.floorplan, "Floor Plan");
+      showCardBuilding(feature.get("name"),feature.get("marker-symbol"),feature.get("acronym"),
+        "building/" +feature.get("image"),"assets/floorplan/"+feature.get("floorplan"), "Floor Plan");
         info.push(`<table class="table table-sm table-striped table-hover">
           <thead><tr><td>${feature.get("name")}<br><i class="caption">Building - ${feature.get("acronym")}</i></td>
           <td><button onclick="showModal('assets/floorplan/${feature.get("floorplan")}','${feature.get("name")}')" 
@@ -248,8 +248,8 @@ function searchBuilding() {
   var lat = coord1[1];
   CenterMap(lon, lat);
   clearCard();
-  showCardBuilding(feature.get("name"),feature.get("marker-symbol"),feature.H.acronym,
-        "building/" +feature.H.image,"assets/floorplan/"+feature.H.floorplan, "Floor Plan");
+  showCardBuilding(feature.get("name"),feature.get("marker-symbol"),feature.get("acronym"),
+        "building/" +feature.get("image"),"assets/floorplan/"+feature.get("floorplan"), "Floor Plan");
 }
 
 
