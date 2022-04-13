@@ -1,0 +1,90 @@
+.navBarItem {
+  appearance: none !important;
+  padding-right: .1rem !important;
+  padding-left: .1rem !important;
+  text-align-last:center;
+  font-size: 8px !important;
+}
+
+#logo{
+  height: 2em;
+}
+
+.navbar-brand{
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+}
+
+img:hover {
+    cursor: pointer;
+}
+.card-panel:hover {
+    cursor: pointer;
+}
+
+.caption{
+  color: grey;
+}
+
+.btnAction{
+  margin-bottom: 4px;
+}
+
+#sidebarMenu{
+  overflow-y: scroll;
+}
+
+/*fix ugly scrollbar in Chrome*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #navTypeItem{
+        display: flex;
+      }
+
+      .fixStupidColor{
+        color: #666666;
+      }
+      #map {
+        /* configure the size of the map */
+        position: fixed;
+        width: 100%;
+        height: 100%;
+      }
+      .marker-properties {
+        border-collapse: collapse;
+        margin: 0;
+        font-size: 11px;
+        border: 1px solid #eee;
+      }
+      .marker-properties tr:nth-child(2n) th, .marker-properties tr:nth-child(2n) td {
+        background-color: #f7f7f7;
+      }
+      .marker-properties th {
+        padding: 5px 10px;
+        white-space: nowrap;
+        border: 1px solid #eee;
+      }
+      .ol-popup {
+        position: absolute;
+        background-color: white;
+        -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid #cccccc;
+        bottom: 12px;
+        left: -50px;
+        min-width: 280px;
+      }
+      
+      #acronym{
+        width: 90%;
+        margin-bottom: 10px;
+      }

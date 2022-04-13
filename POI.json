@@ -1,0 +1,1258 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Coffee Academics",
+        "category": "Cafe",
+        "image": "MainLibTCA.jpg",
+        "marker-color": "#8c4e08",
+        "marker-symbol": "cafe",
+        "floor": "G",
+        "Contact": "5508 8735",
+        "Ordering/Booking": "",
+        "Menu": "MainLibCoffeeShopMenu.pdf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1379526257515,
+          22.283070479685243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Starbucks Coffee",
+        "marker-color": "#8c4e08",
+        "marker-symbol": "cafe",
+        "floor": "G",
+        "Contact": "2559 5028",
+        "Ordering/Booking": "",
+        "Menu": "",
+        "category": "Cafe",
+        "image": "680Sbux.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13581892848015,
+          22.283137491143837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Library",
+        "marker-color": "#538a2e",
+        "marker-symbol": "library",
+        "floor": "G, 1F, 2F, 3F",
+        "Ordering/Booking": "https://lib.hku.hk/general/e-form/book-a-space.html",
+        "Contact": "",
+        "category": "Library",
+        "image": "ML.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13781583309174,
+          22.283318670111832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chi Wah Learning Commons",
+        "marker-color": "#538a2e",
+        "marker-symbol": "school",
+        "floor": "1F, 2F",
+        "Contact": "",
+        "Ordering/Booking": "https://hkufbs.hku.hk/fbs/centralbook/book/Web/search-availability.php",
+        "category": "Study Area",
+        "image": "cwlc.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13461059331894,
+          22.28348495745115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Music Library",
+        "marker-color": "#538a2e",
+        "marker-symbol": "library",
+        "floor": "10F",
+        "Ordering/Booking": "https://lib.hku.hk/general/e-form/book-a-space.html",
+        "category": "Library",
+        "image": "MusicLib.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1346025466919,
+          22.283728183352498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lui Che Woo Law Library",
+        "marker-color": "#538a2e",
+        "marker-symbol": "library",
+        "floor": "1F",
+        "Ordering/Booking": "https://lib.hku.hk/general/e-form/book-a-space.html",
+        "category": "Library",
+        "image": "lawlib.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13403995335102,
+          22.2833180496363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Education Library",
+        "marker-color": "#538a2e",
+        "marker-symbol": "library",
+        "floor": "8F",
+        "Ordering/Booking": "https://lib.hku.hk/general/e-form/book-a-space.html",
+        "category": "Library",
+        "image": "EduLib.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13915425539017,
+          22.282224147018027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KK 1F&2F - The Curve",
+        "marker-color": "#538a2e",
+        "marker-symbol": "school",
+        "floor": "1F, 2F",
+        "Contact": "",
+        "category": "Study Area",
+        "image": "TheCurve2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13905367255211,
+          22.283246694933474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KB 1F - The Oval",
+        "marker-color": "#538a2e",
+        "marker-symbol": "school",
+        "floor": "1F",
+        "category": "Study Area",
+        "image": "TheOval.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13839653134346,
+          22.28330626060097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "University Health Service - UHS",
+        "floor": "2F",
+        "marker-color": "#b93c5b",
+        "marker-symbol": "hospital",
+        "category": "Health Service",
+        "image": "UHS.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13917303085326,
+          22.282204912125145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cedars Counselling",
+        "floor": "3F 301-323",
+        "marker-color": "#b93c5b",
+        "marker-symbol": "hospital",
+        "Contact": "",
+        "category": "Health Service",
+        "image": "Cedars.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13809210062027,
+          22.284284126680976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bijas Vegetarian",
+        "floor": "G",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2964 9011",
+        "Ordering/Booking": "",
+        "Menu": "CCDMenu.pdf",
+        "category": "Restaurant",
+        "image": "bijas.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13417875766754,
+          22.283820013429704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gourmet Asia",
+        "floor": "G",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2175 7778",
+        "Ordering/Booking": "",
+        "Menu": "CCCMenu.pdf",
+        "category": "Restaurant",
+        "image": "CCCOutlet.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13387633860111,
+          22.28362084136147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olivers Super Sandwiches",
+        "floor": "LG",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2549 2862",
+        "Ordering/Booking": "https://oss.order.place/store/5702462139793408/mode/pickup",
+        "Menu": "CCAMenu.pdf",
+        "category": "Restaurant",
+        "image": "CCAOSS.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13495257496834,
+          22.283267791110273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alfafa",
+        "floor": "G",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2546 2121",
+        "Ordering/Booking": "https://v3.order.place/store/4919043471441920/mode/pickup",
+        "category": "Restaurant",
+        "image": "CCBalfafa.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1349559277296,
+          22.283163551146835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Union Restaurant",
+        "floor": "4F",
+        "marker-color": "#eda302",
+        "marker-symbol": "fast-food",
+        "Contact": "2175 7718",
+        "Ordering/Booking": "",
+        "Menu": "URMenu.pdf",
+        "category": "Restaurant",
+        "image": "URHKDiners.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13649350404738,
+          22.283005950102165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Big Pizza",
+        "floor": "G",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "5533 4665",
+        "Ordering/Booking": "",
+        "Menu": "OutpostIVMenu.pdf",
+        "category": "Restaurant",
+        "image": "CO4BigPizza.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1381162405014,
+          22.283512258338718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiosk by The Sandwich Club",
+        "floor": "G",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2398 7928",
+        "Ordering/Booking": "",
+        "Menu": "OutpostIIIMenu.pdf",
+        "category": "Restaurant",
+        "image": "CO3SWC.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13813099265099,
+          22.282656000690633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Subway",
+        "floor": "G",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2561 9002",
+        "Ordering/Booking": "",
+        "category": "Restaurant",
+        "image": "Subway.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13834020495415,
+          22.28264979590594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chong Yuet Ming Amenities Centre Restaurant (Maxim's)",
+        "floor": "4F",
+        "marker-color": "#eda302",
+        "marker-symbol": "fast-food",
+        "Contact": "2857 5511",
+        "Ordering/Booking": "",
+        "category": "Restaurant",
+        "image": "Maxim.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13901209831236,
+          22.282723012347883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "香江冰室",
+        "floor": "4F",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "",
+        "Ordering/Booking": "",
+        "category": "Restaurant",
+        "image": "XJBS.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13905099034308,
+          22.282724253304192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe 330",
+        "floor": "2F",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2794 3778",
+        "Ordering/Booking": "",
+        "Menu": "CYMACCMenu.pdf",
+        "category": "Cafe",
+        "image": "Cafe330.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13916230201721,
+          22.28268081982671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ebeneezer's Kebabs & Pizzeria",
+        "floor": "1F",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2915 5168",
+        "Ordering/Booking": "",
+        "Menu": "HalalCornerMenu.pdf",
+        "category": "Restaurant",
+        "image": "ebeneezers.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1397637873888,
+          22.283895711150713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fong Shu Chuen Amenities Centre Restaurant",
+        "floor": "2F",
+        "marker-color": "#eda302",
+        "marker-symbol": "fast-food",
+        "Contact": "2548 1109",
+        "Ordering/Booking": "",
+        "Menu": "FSCACRMenu.pdf",
+        "category": "Restaurant",
+        "image": "FSCACRAPC.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13972690701485,
+          22.283859723714688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "幸福 · 駅 Sweet Bandott",
+        "floor": "G",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "5281 5852",
+        "category": "Restaurant",
+        "image": "CompositeG05.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13599394261837,
+          22.283136250191195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafeteria by Favilla 学食",
+        "floor": "G",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "Contact": "2885 3235",
+        "category": "Restaurant",
+        "image": "CompositeG01.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1357384622097,
+          22.283137491143837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "restaurant",
+        "marker-color": "#eda302",
+        "image": "CompositeG02.jpg",
+        "category": "Restaurant",
+        "name": "U Deli",
+        "floor": "G",
+        "Contact": "5402 4546",
+        "Menu": "Udeli.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13578070700169,
+          22.28313935257278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HKU FoodLocker",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "Contact": "",
+        "Ordering/Booking": "https://maxim.ecbento.com/",
+        "category": "Vending",
+        "image": "FoodLocker1.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13564324378967,
+          22.283223116849747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HKU FoodLocker",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "Contact": "",
+        "Ordering/Booking": "https://maxim.ecbento.com/",
+        "category": "Vending",
+        "image": "FoodLocker2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13911201059818,
+          22.28333045914612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vending Machine",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "category": "Vending",
+        "image": "VM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13433164358139,
+          22.283328597719724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vending Machine",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "category": "Vending",
+        "image": "VM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13573041558266,
+          22.283236767319757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vending Machine",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "category": "Vending",
+        "image": "VM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13897454738617,
+          22.28335093483492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vending Machine",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "category": "Vending",
+        "image": "VM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13962095975876,
+          22.283818772483116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vending Machine",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "category": "Vending",
+        "image": "VM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13845151662827,
+          22.282600157618408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vending Machine",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "category": "Vending",
+        "image": "VM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13870766758917,
+          22.282603880490573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vending Machine",
+        "floor": "G",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "category": "Vending",
+        "image": "VM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13887061178684,
+          22.282711533501466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "University Museum and Art Gallery",
+        "floor": "G",
+        "marker-color": "#1d1593",
+        "marker-symbol": "museum",
+        "category": "Museum",
+        "image": "ArtMuseum.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13909524679184,
+          22.283749279456654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Geological Museum",
+        "floor": "G",
+        "marker-color": "#1d1593",
+        "marker-symbol": "museum",
+        "category": "Museum",
+        "image": "GeoMuseum.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13745105266571,
+          22.28261132623464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Bridge",
+        "floor": "3F",
+        "marker-color": "#eda302",
+        "marker-symbol": "restaurant",
+        "category": "Restaurant",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1342444717884,
+          22.283477511753624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vending Machine",
+        "floor": "LG",
+        "marker-color": "#eb5f24",
+        "marker-symbol": "grocery",
+        "Ordering/Booking": "",
+        "category": "Vending",
+        "image": "VM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13447380065918,
+          22.28331618820974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ee68bd",
+        "marker-symbol": "star",
+        "name": "The Good Grade Pond",
+        "floor": "G",
+        "category": "Visitors Interest",
+        "image": "HGC.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13356050848961,
+          22.28333604342518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "star",
+        "marker-color": "#ee68bd",
+        "floor": "G",
+        "name": "Vniversity",
+        "category": "Visitors Interest",
+        "image": "Vni.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1401332616806,
+          22.28401484190731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "museum",
+        "marker-color": "#1d1593",
+        "name": "Visitor and Information Center",
+        "floor": "G",
+        "category": "Museum",
+        "image": "Visitor.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13419082760811,
+          22.283935421414196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "star",
+        "marker-color": "#ee68bd",
+        "name": "Lily Pond",
+        "floor": "G",
+        "category": "Visitors Interest",
+        "image": "lilypond01.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13840860128403,
+          22.282790644450873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "star",
+        "marker-color": "#ee68bd",
+        "floor": "G",
+        "name": "The Red Wall",
+        "category": "Visitors Interest",
+        "image": "RedWall.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13397759199142,
+          22.28350977644007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "grocery",
+        "marker-color": "#eb5f24",
+        "name": "ParknShop 百佳超市",
+        "floor": "2F",
+        "category": "Vending",
+        "image": "PNS.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13915928453207,
+          22.282642350163933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#05bd9e",
+        "marker-symbol": "entrance",
+        "name": "HKU East Gate",
+        "floor": "",
+        "category": "Exit",
+        "image": "hkuEG.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13898929953574,
+          22.28390812060926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "entrance",
+        "marker-color": "#05bd9e",
+        "name": "Exit E2",
+        "category": "Exit",
+        "image": "E2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13957200944424,
+          22.284129629259045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "entrance",
+        "marker-color": "#05bd9e",
+        "name": "Exit E1",
+        "category": "Exit",
+        "image": "Vni.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14014533162117,
+          22.284009257655363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "entrance",
+        "marker-color": "#05bd9e",
+        "name": "Exit E3",
+        "category": "Exit",
+        "image": "E3.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13675032556057,
+          22.283620220887286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "entrance",
+        "marker-color": "#05bd9e",
+        "name": "HKU Station Exit A",
+        "floor": "G, FB",
+        "category": "Exit",
+        "image": "HKUGateA.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13673222064972,
+          22.28340057285591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "entrance",
+        "marker-color": "#05bd9e",
+        "name": "HKU West Gate",
+        "floor": "",
+        "category": "Exit",
+        "image": "hkuWG.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13614615797997,
+          22.283412982358403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "entrance",
+        "marker-color": "#05bd9e",
+        "name": "Centennial Gate",
+        "floor": "",
+        "category": "Exit",
+        "image": "CGate.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13438595831393,
+          22.28412714737137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "school",
+        "marker-color": "#538a2e",
+        "name": "Library Corner",
+        "category": "Study Area",
+        "image": "MainLibCorner.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13800224661826,
+          22.2831858882884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "star",
+        "marker-color": "#ee68bd",
+        "name": "Chong Yuet Ming Fountain",
+        "category": "Visitors Interest",
+        "image": "Fountain.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13957938551903,
+          22.282709361827724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "entrance",
+        "marker-color": "#05bd9e",
+        "name": "Exit S2",
+        "floor": "",
+        "category": "Exit",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14043098688126,
+          22.28273045808559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#5e0aa4",
+        "marker-symbol": "music",
+        "floor": "5F",
+        "name": "Piano",
+        "category": "Music",
+        "image": "CYMPiano.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13923807442188,
+          22.282580922777253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "music",
+        "marker-color": "#5e0aa4",
+        "name": "Piano Room",
+        "floor": "1F",
+        "category": "Music",
+        "image": "musicroom01.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13978725671768,
+          22.283909671791506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "entrance",
+        "marker-color": "#05bd9e",
+        "name": "Exit S1",
+        "category": "Exit",
+        "image": "S1.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13778901100159,
+          22.28165082197811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Visitors Interest",
+        "marker-symbol": "star",
+        "marker-color": "#ee68bd",
+        "name": "Sun Yat-sen Place",
+        "image": "ZSGC.jpg",
+        "floor": "G",
+        "Contact": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13816787302494,
+          22.283228080657178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simon K.Y Lee Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "category": "Hall",
+        "image": "skyl.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13589403033257,
+          22.283014636778546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lady Ho Tung Hall",
+        "category": "Hall",
+        "image": "LHT.jpg",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13330167531967,
+          22.284152586718086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Starr Hall",
+        "category": "Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "image": "starr.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13288325071335,
+          22.283844832359147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ricci Hall",
+        "category": "Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "image": "ricci.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13236021995544,
+          22.283854759929685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swire Hall",
+        "category": "Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "image": "swire.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13967192173004,
+          22.283638835111383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lee Chi Hung Hall",
+        "category": "Hall",
+        "image": "lch.jpg",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1389799118042,
+          22.282837180282538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Visitors Interest",
+        "name": "Centennial Garden",
+        "marker-symbol": "star",
+        "marker-color": "#ee68bd",
+        "image": "CentennialGarden.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13413316011429,
+          22.282760241032484
+        ]
+      }
+    }
+  ]
+}

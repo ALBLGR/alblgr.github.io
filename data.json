@@ -1,0 +1,447 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HKU Station Exit A",
+        "type": "MTR",
+        "img": "",
+        "url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13673959672451,
+          22.28325724302227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Innovation Wing",
+        "type": "",
+        "img": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13752883672714,
+          22.282803674485297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Library 2/F",
+        "url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1375409066677,
+          22.283416705208943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Library G/F",
+        "type": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13798615336418,
+          22.283486198400716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Library Extension LG1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13785271346568,
+          22.283496125996713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Building 3/F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13785874843597,
+          22.283710810087864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knowles Building G/F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13823559880257,
+          22.28340181380621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KK Leung G/F (East Gate)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1389074921608,
+          22.283321152013862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Gate Lift"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13877137005329,
+          22.28338133812487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KK Leung LG2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13901075720786,
+          22.2834030547565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swire Canteen",
+        "type": "cafeteria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13970813155174,
+          22.28372942429989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KK Leung G/F(South Gate)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13900941610335,
+          22.283080407310756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Educational Library(Meng Wah 8/F)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13926422595978,
+          22.282237797585566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MWT Lecture Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13916900753975,
+          22.28228867696192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lift to Meng Wah 3/F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13867883384226,
+          22.282487850927826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gate To Main Library G/F & Knowles Building G/F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13804382085799,
+          22.28264110920689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CYPP Lecture Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13969337940215,
+          22.282860758431354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lift outside Meng Wah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1390912234783,
+          22.282363134552483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gate To Knowles Building G/F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13843274116516,
+          22.28262745867874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pao Siu Loong Building(Lost and found)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13755431771278,
+          22.28453107401291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Music Library (Run Run Shaw Tower 11/F))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13460053503513,
+          22.28371329198295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chi Wah Library Gate(G/F)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1349096596241,
+          22.283337284376067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elevator to Chi Wah Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13415193557739,
+          22.28358919717497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liu Che Woo Law Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13403995335102,
+          22.28331060392989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elevator to CPD Class Rooms"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13426727056503,
+          22.283282062051605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chi Wah Gate(2/F)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13434371352196,
+          22.283303778698645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CPD Classrooms"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13435846567153,
+          22.283226839705335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chi Wah Lift(LG - 2/F)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13487613201141,
+          22.28352714972968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chow Yei Ching Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1354689002037,
+          22.283199538762048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Starbucks",
+        "type": "cafeteria",
+        "img": "cafes/sbux.png",
+        "url": "https://www.cedars.hku.hk/campuslife/catering/CompositeCafeteriaA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13577198982239,
+          22.28310770827731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Union Restaurant",
+        "type": "cafeteria",
+        "img": "cafes/union.png",
+        "url": "https://www.cedars.hku.hk/campuslife/catering/UR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13650959730148,
+          22.283010913917305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MTR Exit C",
+        "type": "MTR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13787215948105,
+          22.284390847692013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13437724113463,
+          22.284117840292136
+        ]
+      }
+    }
+  ]
+}
