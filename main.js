@@ -213,7 +213,7 @@ function focusOnFeature(e) {
   let name = e
   var feature;
   for (i of sourceVector.getFeatures()) {
-    if (i.H.name == name) {
+    if (i.get("name") == name) {
       feature = i;
       break;
     }
@@ -234,7 +234,7 @@ function focusOnFeature(e) {
 function searchBuilding() {
   var feature;
   for (i = 0; i < buildingSource.getFeatures().length; i++) {
-    if (buildingSource.getFeatures()[i].H.acronym == document.getElementById('acronym').value)
+    if (buildingSource.getFeatures()[i].get("acronym") == document.getElementById('acronym').value)
       feature = buildingSource.getFeatures()[i];
   }
   if(!feature){
