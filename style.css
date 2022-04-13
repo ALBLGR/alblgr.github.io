@@ -14,6 +14,19 @@
   padding-top: 0.2em !important;
   padding-bottom: 0.2em !important;
 }
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
 img:hover {
     cursor: pointer;
@@ -32,6 +45,7 @@ img:hover {
 
 #sidebarMenu{
   overflow-y: scroll;
+  top: 0;
 }
 
 /*fix ugly scrollbar in Chrome*/
@@ -54,6 +68,7 @@ html, body {
       #map {
         /* configure the size of the map */
         position: fixed;
+        margin-left: -1em;
         width: 100%;
         height: 100%;
       }

@@ -465,3 +465,8 @@ function showPanel(cat){
 
   $("#exampleModal").modal("toggle");
 }
+
+window.onresize = function()
+{
+  setTimeout( function() { map.updateSize();}, 200);
+}
