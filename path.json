@@ -6,7 +6,8 @@
       "properties": {
         "name": "U-Str Main",
         "description": "the major street in HKU",
-        "img": "U-Str Main.jpg"
+        "img": "U-Str Main (CPD).jpg",
+        "img (reverse)": "U-Str Main.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -79,7 +80,8 @@
       "properties": {
         "name": "SYS Place to MB",
         "description": "go downstairs and turn right",
-        "img": "SYS Place to MB.jpg"
+        "img": "SYS Place to MB.jpg",
+        "img (reverse)": "MB to SYS Place.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -110,42 +112,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Exit A routes",
-        "description": "",
-        "img": ""
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            114.13664638996124,
-            22.283591679072202
-          ],
-          [
-            114.13686633110046,
-            22.28356189630243
-          ],
-          [
-            114.13690388202667,
-            22.283795194495873
-          ],
-          [
-            114.13712918758392,
-            22.284023528521008
-          ],
-          [
-            114.13757979869841,
-            22.284440485343815
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "U-Str to CB",
         "description": "both ok for G and LG",
-        "img": "U-Str to CB.jpg"
+        "img": "U-Str to CB.jpg",
+        "img (reverse)": "CB to U-Str.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -166,7 +136,8 @@
       "properties": {
         "name": "KKL to Swire",
         "img": "KKL to Swire.jpg",
-        "description": "at KKL LG2"
+        "description": "at KKL LG2",
+        "img (reverse)": "Swire to KKL.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -207,7 +178,8 @@
       "properties": {
         "name": "Swire to TTT",
         "img": "Swire to TTT.jpg",
-        "description": "nearby Swire"
+        "description": "nearby Swire",
+        "img (reverse)": "TTT to Swire.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -232,7 +204,8 @@
       "properties": {
         "name": "MB to PSL",
         "img": "MB to PSL.jpg",
-        "description": "nearby MB platform"
+        "description": "nearby MB platform",
+        "img (reverse)": "PSL to MB.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -252,7 +225,9 @@
       "type": "Feature",
       "properties": {
         "name": "Graduate House",
-        "description": "go upstairs"
+        "description": "go upstairs",
+        "img": "Graduate House.jpg",
+        "img (reverse)": "Graduate House (reverse).jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -308,7 +283,9 @@
       "type": "Feature",
       "properties": {
         "name": "U-Str to CYT",
-        "description": "Go to the end and turn left"
+        "description": "go to the end and turn left",
+        "img": "U-Str to CYT.jpg",
+        "img (reverse)": "CYT to U-Str.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -333,7 +310,8 @@
       "properties": {
         "name": "SYS Place to RR",
         "description": "go up stairs",
-        "img": "SYS Place to RR.jpg"
+        "img": "SYS Place to RR.jpg",
+        "img (reverse)": "RR to SYS Place.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -365,7 +343,9 @@
       "type": "Feature",
       "properties": {
         "name": "Exit C to HKU",
-        "description": ""
+        "description": "through the subway exit",
+        "img": "Exit C to HKU.jpg",
+        "img (reverse)": "HKU to Exit C.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -401,7 +381,9 @@
       "type": "Feature",
       "properties": {
         "name": "Music Lib",
-        "description": "11F, RRS"
+        "description": "11F, RRS",
+        "img": "Music Lib.jpg",
+        "img (reverse)": "Music Lib (reverse).jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -429,8 +411,9 @@
       "type": "Feature",
       "properties": {
         "name": "U-Str to Chi Wah",
-        "description": "",
-        "img": "U-Str to Chi Wah"
+        "description": "entrance by U-Str",
+        "img": "U-Str to Chi Wah.jpg",
+        "img (reverse)": "Chi Wah to U-Str.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -451,7 +434,8 @@
       "properties": {
         "name": "CC to CG",
         "img": "CC to CG.jpg",
-        "description": "at 2/F Chi Wah"
+        "description": "at 1/F Chi Wah",
+        "img (reverse)": "CG to CC.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -474,7 +458,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lower U Dr"
+        "name": "Lower U Dr",
+        "img (reverse)": "Lower U Dr (2).jpg",
+        "img": "Lower U Dr.jpg",
+        "description": "the lower part of the university drive"
       },
       "geometry": {
         "type": "LineString",
@@ -538,7 +525,9 @@
       "type": "Feature",
       "properties": {
         "name": "Upper U Dr",
-        "description": ""
+        "description": "the upper part of the university drive",
+        "img": "Upper U Dr.jpg",
+        "img (reverse)": "Upper U Dr to Lower U Dr.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -595,7 +584,8 @@
       "properties": {
         "name": "CYM to MW",
         "img": "CYM to MW.jpg",
-        "description": "Take the escalator and walk through the corridor"
+        "description": "take the escalator and walk through the corridor",
+        "img (reverse)": "MW to CYM.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -615,7 +605,9 @@
       "type": "Feature",
       "properties": {
         "name": "CYMCC to CYM Phy/Chem",
-        "description": "at CYMCC 5/F"
+        "description": "at CYMCC 5/F",
+        "img": "CYMCC to CYM Phy.jpg",
+        "img (reverse)": "CYM Phy to CYMCC.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -655,7 +647,9 @@
       "type": "Feature",
       "properties": {
         "name": "Eliot Hall to May Hall",
-        "description": "behind Eliot Hall"
+        "description": "behind Eliot Hall",
+        "img": "Eliot Hall to May Hall.jpg",
+        "img (reverse)": "May Hall to Eliot Hall.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -676,7 +670,8 @@
       "properties": {
         "name": "KKL to CYMCC",
         "img": "KKL to CYMCC.jpg",
-        "description": "walk through the stairs"
+        "description": "walk through the stairs",
+        "img (reverse)": "CYMCC to KKL.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -708,8 +703,9 @@
       "type": "Feature",
       "properties": {
         "name": "U-Str to CYM",
-        "description": "Go to the end of the street and turn left and enter the entrance",
-        "img": "U-Str to CYM.jpg"
+        "description": "go to the end of the street and turn left and enter the entrance",
+        "img": "U-Str to CYM.jpg",
+        "img (reverse)": "CYM to U-Str.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -734,7 +730,8 @@
       "properties": {
         "name": "U-Str to SYS Place",
         "img": "U-Str to SYS Place.jpg",
-        "description": "Take the escalator down and turn left"
+        "description": "take the escalator down and turn left",
+        "img (reverse)": "SYS Place to U-Str.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -762,7 +759,9 @@
       "type": "Feature",
       "properties": {
         "name": "KB to U-Str",
-        "description": "walk through the park at G/F KB"
+        "description": "walk through the park at G/F KB",
+        "img": "KB to U-Str.jpg",
+        "img (reverse)": "U-Str to KB.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -811,7 +810,8 @@
       "properties": {
         "name": "HW-Kadoorie",
         "img": "HW-Kadoorie.jpg",
-        "description": "at HW G/F"
+        "description": "at HW G/F",
+        "img (reverse)": "Kadoorie-HW.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -832,7 +832,8 @@
       "properties": {
         "name": "KKL to KB",
         "description": "walk through the corridor at G",
-        "img": "KKL to KB.jpg"
+        "img": "KKL to KB.jpg",
+        "img (reverse)": "KB to KKL.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -856,7 +857,9 @@
       "type": "Feature",
       "properties": {
         "name": "LE to Kadoorie",
-        "description": "Go straight down the hallway and stairs"
+        "description": "go straight down the hallway and stairs",
+        "img": "LE to Kadoorie.jpg",
+        "img (reverse)": "Kadoorie to LE.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -884,7 +887,9 @@
       "type": "Feature",
       "properties": {
         "name": "CYMCB to Eliot Hall.jpg",
-        "description": "go upstairs nearby the fountain"
+        "description": "go upstairs nearby the fountain",
+        "img": "CYMCB to Eliot Hall.jpg",
+        "img (reverse)": "Eliot Hall to CYMCB.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -929,7 +934,8 @@
       "properties": {
         "name": "U-Str to JCT",
         "img": "U-Str to JCT.jpg",
-        "description": "take elevator at both G and LG"
+        "description": "take elevator at both G and LG",
+        "img (reverse)": "JCT to U-Str.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -949,7 +955,9 @@
       "type": "Feature",
       "properties": {
         "name": "Simon K.Y. Lee Hall to CB",
-        "description": "behind CB"
+        "description": "behind Composite Building.",
+        "img": "Composite B to Simon K.Y. Lee Hall.jpg",
+        "img (reverse)": "Simon K.Y. Lee Hall to Composite B.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -970,7 +978,8 @@
       "properties": {
         "name": "U-Str to HW",
         "img": "U-Str to HW.jpg",
-        "description": "enter the door at the back"
+        "description": "enter the door at the back",
+        "img (reverse)": "HW to U-Str.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -993,9 +1002,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Exit A-HW Podium",
+        "name": "Exit A to HW Podium",
         "description": "take elevator to \"HKU\"",
-        "img": "Exit A-HW Podium.jpg"
+        "img": "Exit A to HW Podium.jpg",
+        "img (reverse)": "HW Podium to Exit A.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -1019,7 +1029,9 @@
       "type": "Feature",
       "properties": {
         "name": "U-Str to ML",
-        "description": "entrance is 2/F"
+        "description": "entrance is 2/F",
+        "img": "U-Str to ML.jpg",
+        "img (reverse)": "ML to U-Str.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -1056,7 +1068,8 @@
       "properties": {
         "name": "ML (old wing)",
         "description": "entrance at SYS Place",
-        "img": "ML (old wing).jpg"
+        "img": "ML (old wing).jpg",
+        "img (reverse)": "ML (old wing) reverse.jpg"
       },
       "geometry": {
         "type": "LineString",
@@ -1068,6 +1081,274 @@
           [
             114.13810148835182,
             22.283096539700733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lower U Dr to University Drive No.2",
+        "img": "Lower U Dr to University Drive No.2.jpg",
+        "description": "go up through the road",
+        "img (reverse)": "University Drive No.2 to Lower U Dr.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.13799956440926,
+            22.28233955631975
+          ],
+          [
+            114.13808673620224,
+            22.282327146721993
+          ],
+          [
+            114.13815915584564,
+            22.282327146721993
+          ],
+          [
+            114.1382771730423,
+            22.28229239984238
+          ],
+          [
+            114.13832411170004,
+            22.282257652954144
+          ],
+          [
+            114.13833752274513,
+            22.282144725507745
+          ],
+          [
+            114.13818061351776,
+            22.2822353156643
+          ],
+          [
+            114.13797006011009,
+            22.282020629307613
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lee Chung Yin Rd",
+        "img": "Lee Chung Yin Rd.jpg",
+        "description": "the car road nearby exit A",
+        "img (reverse)": "Lee Chung Yin Rd (reverse).jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.13689315319061,
+            22.28355693250687
+          ],
+          [
+            114.13690656423569,
+            22.283757966086867
+          ],
+          [
+            114.13692936301231,
+            22.283824977215954
+          ],
+          [
+            114.13711845874785,
+            22.284017323796988
+          ],
+          [
+            114.13719758391379,
+            22.283939144250816
+          ],
+          [
+            114.13733035326004,
+            22.28368226829128
+          ],
+          [
+            114.13736924529076,
+            22.28365620838496
+          ],
+          [
+            114.13748323917389,
+            22.283643798904055
+          ],
+          [
+            114.13755029439926,
+            22.283611534248536
+          ],
+          [
+            114.13785874843597,
+            22.28359788381512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HHY to MB",
+        "img": "HHY to MB.jpg",
+        "img (reverse)": "MB to HHY.jpg",
+        "description": "just in front of HHY"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.13787517696619,
+            22.28445878922347
+          ],
+          [
+            114.13787551224232,
+            22.284397672870192
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TTT to Fung Ping Shan Building",
+        "img": "TTT to Fung Ping Shan Building.jpg",
+        "description": "go down to G/F from 3/F",
+        "img (reverse)": "Fung Ping Shan Building to TTT.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.13931652903557,
+            22.28381567011661
+          ],
+          [
+            114.13926020264626,
+            22.283795194495873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tang Chi Ngong Building",
+        "img": "Tang Chi Ngong Building.jpg",
+        "img (reverse)": "Tang Chi Ngong Building (revese).jpg",
+        "description": "behind Swire"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.13947075605392,
+            22.28356810104667
+          ],
+          [
+            114.13949020206928,
+            22.283561275828003
+          ],
+          [
+            114.13949087262154,
+            22.28353893874641
+          ],
+          [
+            114.13981541991232,
+            22.28351660166125
+          ],
+          [
+            114.13985632359982,
+            22.283522806407486
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HKU East Gate",
+        "img": "HKU East Gate.jpg",
+        "description": "nearby Exit A",
+        "img (reverse)": "HKU East Gate(reverse).jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.13678050041199,
+            22.28330626060097
+          ],
+          [
+            114.13682475686073,
+            22.283331700097047
+          ],
+          [
+            114.13685761392117,
+            22.28337823574864
+          ],
+          [
+            114.13687773048878,
+            22.283432837560117
+          ],
+          [
+            114.1368918120861,
+            22.28355755298132
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper U Dr to Robert Black College",
+        "img": "Upper U Dr to Robert Black College.jpg",
+        "description": "on Upper U Dr",
+        "img (reverse)": "Robert Black College to Upper U Dr.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.13841731846331,
+            22.28160056285279
+          ],
+          [
+            114.13841731846331,
+            22.28178050284762
+          ],
+          [
+            114.13891486823559,
+            22.28175320162194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West gate",
+        "img": "West gate.jpg",
+        "img (reverse)": "West gate(reverse).jpg",
+        "description": "nearby the bus station"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.13572907447815,
+            22.283551968711116
+          ],
+          [
+            114.13593292236328,
+            22.28347378890471
+          ],
+          [
+            114.13614347577095,
+            22.283412982358403
+          ],
+          [
+            114.13614079356194,
+            22.283283923478624
           ]
         ]
       }
