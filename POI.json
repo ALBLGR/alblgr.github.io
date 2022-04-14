@@ -12,7 +12,9 @@
         "floor": "G",
         "Contact": "5508 8735",
         "Ordering/Booking": "",
-        "Menu": "MainLibCoffeeShopMenu.pdf"
+        "Menu": "MainLibCoffeeShopMenu.pdf",
+        "Open Time": "Monday – Friday 08:30 – 17:30/ Saturday Closed/ Sunday & Public Holiday Closed",
+        "Description": "Self-serviced cafe offering specialty coffee, sandwiches, salads and pastries"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +35,9 @@
         "Ordering/Booking": "",
         "Menu": "",
         "category": "Cafe",
-        "image": "680Sbux.png"
+        "image": "680Sbux.png",
+        "Open Time": "Monday – Friday 07:30 – 21:00/ Saturday 08:00 – 20:00/ Sunday & Public Holiday 11:00 – 18:30",
+        "Description": "Self-serviced cafe offering salad, Sandwiches, Bakery, Dessert, Coffee, Grab-n-go"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +57,10 @@
         "Ordering/Booking": "https://lib.hku.hk/general/e-form/book-a-space.html",
         "Contact": "",
         "category": "Library",
-        "image": "ML.JPG"
+        "image": "ML.JPG",
+        "Description": "The Main Library comprises an all-rounded collection of materials in the arts, humanities, architecture, social sciences, and science and technology, giving vital support to teaching and research in the University.",
+        "Menu": "",
+        "Open Time": "Monday – Thursday 9:00am - 7:00pm/ Friday – Sunday 9:00am - 5:00pm"
       },
       "geometry": {
         "type": "Point",
@@ -73,7 +80,9 @@
         "Contact": "",
         "Ordering/Booking": "https://hkufbs.hku.hk/fbs/centralbook/book/Web/search-availability.php",
         "category": "Study Area",
-        "image": "cwlc.jpg"
+        "image": "cwlc.jpg",
+        "Open Time": "Level 1 Monday - Sunday (Including public holidays) 8:00 am - 6:00 am/ Level 2 Monday - Sunday 8:00 am - 11:00 pm",
+        "Description": "he 6000 square meter Chi Wah Learning Commons (智華館) is located at the podium levels of the University’s Centennial Campus.  The facility, which spreads over three levels, is a technology-rich, shared or common space in which students, teachers and others can come together to interact, and participate in various kinds of learning activities held there. "
       },
       "geometry": {
         "type": "Point",
@@ -92,7 +101,9 @@
         "floor": "10F",
         "Ordering/Booking": "https://lib.hku.hk/general/e-form/book-a-space.html",
         "category": "Library",
-        "image": "MusicLib.jpg"
+        "image": "MusicLib.jpg",
+        "Open Time": "Monday – Thursday 1:00pm - 7:00pm/ Friday – Sunday Closed",
+        "Description": "The Music Library is a comfortable and well-equipped research library that supports the curriculum and research of the Department of Music, as well as broad musical interests and activities of the University community."
       },
       "geometry": {
         "type": "Point",
@@ -111,7 +122,9 @@
         "floor": "1F",
         "Ordering/Booking": "https://lib.hku.hk/general/e-form/book-a-space.html",
         "category": "Library",
-        "image": "lawlib.jpg"
+        "image": "lawlib.jpg",
+        "Open Time": "Monday – Thursday 9:00am - 7:00pm/ Friday – Sunday Closed",
+        "Description": "The University of Hong Kong Lui Che Woo Law Library is one of the subject branch libraries of the University Libraries. It provides study and research facilities for the academics, students and postgraduates of the Faculty, and other staff and students of the University."
       },
       "geometry": {
         "type": "Point",
@@ -130,7 +143,9 @@
         "floor": "8F",
         "Ordering/Booking": "https://lib.hku.hk/general/e-form/book-a-space.html",
         "category": "Library",
-        "image": "EduLib.jpg"
+        "image": "EduLib.jpg",
+        "Open Time": "Monday – Thursday 9:00am - 7:00pm/ Friday – Sunday Closed",
+        "Description": "The Education Library, established in 1978, is one of the branch libraries of the University Libraries.  It provides study and research facilities for the academics, undergraduates and postgraduates of the Faculty of Education, as well as other members of the University."
       },
       "geometry": {
         "type": "Point",
@@ -149,7 +164,9 @@
         "floor": "1F, 2F",
         "Contact": "",
         "category": "Study Area",
-        "image": "TheCurve2.jpg"
+        "image": "TheCurve2.jpg",
+        "Open Time": "Monday - Sunday (Including public holidays) 8:00 am - 11:30 pm",
+        "Description": "The Curve is located on the first and second floors of K.K. Leung Building. The facility is a common space in which students, teachers and others can come and study."
       },
       "geometry": {
         "type": "Point",
@@ -167,7 +184,10 @@
         "marker-symbol": "school",
         "floor": "1F",
         "category": "Study Area",
-        "image": "TheOval.jpg"
+        "image": "TheOval.jpg",
+        "Open Time": "Monday - Sunday (Including public holidays) 8:00 am - 11:30 pm",
+        "Menu": "",
+        "Description": "The Oval is located on the first floor of Knowles Building. The facility is a common space in which students, teachers and others can come and study."
       },
       "geometry": {
         "type": "Point",
@@ -185,7 +205,9 @@
         "marker-color": "#b93c5b",
         "marker-symbol": "hospital",
         "category": "Health Service",
-        "image": "UHS.jpg"
+        "image": "UHS.jpg",
+        "Open Time": "Monday - Friday 8:40 am - 5:00 pm/ Saturday 8:25 am - 12:45 pm/ Sunday & Public Holidays Closed",
+        "Description": "The University Health Service provides for the health needs of students, staff, dependants and retired staff with the aim of promoting and maintaining their physical and psychological well being through the provision of accessible and cost-effective primary health care and health education."
       },
       "geometry": {
         "type": "Point",
@@ -204,7 +226,9 @@
         "marker-symbol": "hospital",
         "Contact": "",
         "category": "Health Service",
-        "image": "Cedars.jpg"
+        "image": "Cedars.jpg",
+        "Description": "Cedars counselling provided free psychological counseling services to students to help students overcome mental unwellingness",
+        "Open Time": "Monday – Thursday 9:00am – 5:45pm/ Friday 9:00am – 6:00pm/ Saturday - Sunday Closed"
       },
       "geometry": {
         "type": "Point",
@@ -225,7 +249,9 @@
         "Ordering/Booking": "",
         "Menu": "CCDMenu.pdf",
         "category": "Restaurant",
-        "image": "bijas.jpg"
+        "image": "bijas.jpg",
+        "Open Time": "Monday – Friday 11:30 – 20:00/ Saturday & Public Holiday 11:30 – 20:00/ Sunday Closed",
+        "Description": "Self-serviced (Buffet Style, Collect-and-pay, charge by weight); Chinese Style Vegetarian, Coffee, Fresh Juice"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +272,9 @@
         "Ordering/Booking": "",
         "Menu": "CCCMenu.pdf",
         "category": "Restaurant",
-        "image": "CCCOutlet.jpg"
+        "image": "CCCOutlet.jpg",
+        "Open Time": "Monday – Friday 08:00 – 15:30/ Saturday 08:00 – 15:30/ Sunday & Public Holiday Closed",
+        "Description": "Self-serviced fast food; South-East Asian Cuisine"
       },
       "geometry": {
         "type": "Point",
@@ -267,7 +295,9 @@
         "Ordering/Booking": "https://oss.order.place/store/5702462139793408/mode/pickup",
         "Menu": "CCAMenu.pdf",
         "category": "Restaurant",
-        "image": "CCAOSS.jpg"
+        "image": "CCAOSS.jpg",
+        "Description": "Self-serviced fast food, offering daily signatured hamburger, pasta, salad.",
+        "Open Time": "Monday – Friday 08:30 – 15:30/ Saturday Closed/ Sunday & Public Holiday Closed"
       },
       "geometry": {
         "type": "Point",
@@ -280,14 +310,16 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Alfafa",
+        "name": "Alfafa Cafe",
         "floor": "G",
         "marker-color": "#eda302",
         "marker-symbol": "restaurant",
         "Contact": "2546 2121",
         "Ordering/Booking": "https://v3.order.place/store/4919043471441920/mode/pickup",
         "category": "Restaurant",
-        "image": "CCBalfafa.jpg"
+        "image": "CCBalfafa.jpg",
+        "Open Time": "Monday – Friday 08:00 – 18:00/ Saturday 08:00 – 18:00/ Sunday & Public Holiday 08:00 – 18:00",
+        "Description": "Self-serviced fast food; Pasta, sandwiches, salads, pastries and specialty coffee"
       },
       "geometry": {
         "type": "Point",
@@ -308,7 +340,9 @@
         "Ordering/Booking": "",
         "Menu": "URMenu.pdf",
         "category": "Restaurant",
-        "image": "URHKDiners.jpg"
+        "image": "URHKDiners.jpg",
+        "Open Time": "Monday – Friday 07:30 – 19:30/ Saturday 07:30 – 19:30/ Sunday & Public Holiday 07:30 – 19:30",
+        "Description": "Self-serviced fast food; Local and multinational fast food"
       },
       "geometry": {
         "type": "Point",
@@ -329,7 +363,9 @@
         "Ordering/Booking": "",
         "Menu": "OutpostIVMenu.pdf",
         "category": "Restaurant",
-        "image": "CO4BigPizza.jpg"
+        "image": "CO4BigPizza.jpg",
+        "Open Time": "Temporarily closed",
+        "Description": "Over the counter grab-n-go; Pizza (Halal Food) and drink"
       },
       "geometry": {
         "type": "Point",
@@ -350,7 +386,9 @@
         "Ordering/Booking": "",
         "Menu": "OutpostIIIMenu.pdf",
         "category": "Restaurant",
-        "image": "CO3SWC.jpg"
+        "image": "CO3SWC.jpg",
+        "Open Time": "Monday – Friday 08:00 – 17:00/ Saturday Closed/ Sunday & Public Holiday Closed",
+        "Description": "Over the counter grab-n-go; Bento boxes, pastries sandwiches and salads"
       },
       "geometry": {
         "type": "Point",
@@ -370,7 +408,9 @@
         "Contact": "2561 9002",
         "Ordering/Booking": "",
         "category": "Restaurant",
-        "image": "Subway.jpg"
+        "image": "Subway.jpg",
+        "Open Time": "Monday – Friday 09:00 – 19:00/ Saturday 09:00 – 19:00/ Sunday & Public Holiday 09:00 – 19:00",
+        "Description": "Over the counter grab-n-go, offering sandwiches, cookies, grab-n-go"
       },
       "geometry": {
         "type": "Point",
@@ -383,14 +423,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Chong Yuet Ming Amenities Centre Restaurant (Maxim's)",
+        "name": "Chong Yuet Ming Amenities Centre Restaurant (Maxims)",
         "floor": "4F",
         "marker-color": "#eda302",
         "marker-symbol": "fast-food",
         "Contact": "2857 5511",
         "Ordering/Booking": "",
         "category": "Restaurant",
-        "image": "Maxim.png"
+        "image": "Maxim.png",
+        "Menu": "",
+        "Open Time": "Monday – Friday 07:30 – 19:30/ Saturday 07:30 – 19:30/ Sunday & Public Holiday 07:30 – 19:30 ",
+        "Description": "Self-serviced fast food, offering local fast food, Noodles, Chinese BBQ, SE Asian food, Sizzling Plate"
       },
       "geometry": {
         "type": "Point",
@@ -410,7 +453,9 @@
         "Contact": "",
         "Ordering/Booking": "",
         "category": "Restaurant",
-        "image": "XJBS.png"
+        "image": "XJBS.png",
+        "Description": "Self-serviced fast food; Local fast food and desserts",
+        "Open Time": "Monday – Friday 07:30 – 19:30/ Saturday 07:30 – 19:30/ Sunday & Public Holiday 07:30 – 19:30 "
       },
       "geometry": {
         "type": "Point",
@@ -431,7 +476,9 @@
         "Ordering/Booking": "",
         "Menu": "CYMACCMenu.pdf",
         "category": "Cafe",
-        "image": "Cafe330.jpg"
+        "image": "Cafe330.jpg",
+        "Open Time": "Monday – Friday 07:30 – 17:30/ Saturday Closed/ Sunday & Public Holiday Closed",
+        "Description": "Self-serviced; Pasta, Salad, Sandwiches, Bakery, Dessert, Coffee, Grab-n-go"
       },
       "geometry": {
         "type": "Point",
@@ -452,7 +499,9 @@
         "Ordering/Booking": "",
         "Menu": "HalalCornerMenu.pdf",
         "category": "Restaurant",
-        "image": "ebeneezers.jpg"
+        "image": "ebeneezers.jpg",
+        "Open Time": "Monday – Friday 09:00 – 17:30/ Saturday 09:00 – 17:30/ Sunday & Public Holiday Closed",
+        "Description": "Self-serviced fast food; Halal Food (Kebabs, Pizza, Biryani Rice, Salad)"
       },
       "geometry": {
         "type": "Point",
@@ -473,7 +522,9 @@
         "Ordering/Booking": "",
         "Menu": "FSCACRMenu.pdf",
         "category": "Restaurant",
-        "image": "FSCACRAPC.jpg"
+        "image": "FSCACRAPC.jpg",
+        "Open Time": "Monday – Friday 07:30 – 19:00/ Saturday Closed/ Sunday & Public Holiday Closed",
+        "Description": "Self-serviced fast food; Local fast food, Noodles, Chinese BBQ, Pasta, SE Asian food"
       },
       "geometry": {
         "type": "Point",
@@ -492,7 +543,9 @@
         "marker-symbol": "restaurant",
         "Contact": "5281 5852",
         "category": "Restaurant",
-        "image": "CompositeG05.jpg"
+        "image": "CompositeG05.jpg",
+        "Open Time": "Monday – Friday 10:30 – 19:30/ Saturday Closed/ Sunday & Public Holiday Closed",
+        "Description": "Self-serviced (Takeaway Only); Japanese rice-ball, Japanese style meal box"
       },
       "geometry": {
         "type": "Point",
@@ -511,7 +564,10 @@
         "marker-symbol": "restaurant",
         "Contact": "2885 3235",
         "category": "Restaurant",
-        "image": "CompositeG01.jpg"
+        "image": "CompositeG01.jpg",
+        "Open Time": "Monday – Friday 11:30 – 17:30/ Saturday 09:00 – 18:00/ Sunday & Public Holiday Closed",
+        "Description": "Self-serviced Dine-in / Takeaway; Pour over coffee, Chinese and Western-style meals",
+        "Menu": ""
       },
       "geometry": {
         "type": "Point",
@@ -531,7 +587,9 @@
         "name": "U Deli",
         "floor": "G",
         "Contact": "5402 4546",
-        "Menu": "Udeli.jpg"
+        "Menu": "Udeli.jpg",
+        "Open Time": "Monday – Friday 11:00 – 18:00/ Saturday Closed/ Sunday & Public Holiday Closed",
+        "Description": "Self-serviced (Takeaway only); Mealbox, snacks, grab-n-go"
       },
       "geometry": {
         "type": "Point",
@@ -551,7 +609,9 @@
         "Contact": "",
         "Ordering/Booking": "https://maxim.ecbento.com/",
         "category": "Vending",
-        "image": "FoodLocker1.jpg"
+        "image": "FoodLocker1.jpg",
+        "Open Time": "Temporarily suspended",
+        "Description": "Fastfood lunch boxes (Pre-ordered online)"
       },
       "geometry": {
         "type": "Point",
@@ -571,7 +631,9 @@
         "Contact": "",
         "Ordering/Booking": "https://maxim.ecbento.com/",
         "category": "Vending",
-        "image": "FoodLocker2.jpg"
+        "image": "FoodLocker2.jpg",
+        "Open Time": "Temporarily suspended",
+        "Description": "Fastfood lunch boxes (Pre-ordered online)"
       },
       "geometry": {
         "type": "Point",
@@ -589,7 +651,8 @@
         "marker-color": "#eb5f24",
         "marker-symbol": "grocery",
         "category": "Vending",
-        "image": "VM.jpg"
+        "image": "VM.jpg",
+        "Description": "Offers an assortment of crunchy snacks, cookies, chocolates, soft drinks and teas"
       },
       "geometry": {
         "type": "Point",
@@ -607,7 +670,9 @@
         "marker-color": "#eb5f24",
         "marker-symbol": "grocery",
         "category": "Vending",
-        "image": "VM.jpg"
+        "image": "VM.jpg",
+        "Open Time": "",
+        "Description": "Offers an assortment of crunchy snacks, cookies, chocolates, soft drinks and teas"
       },
       "geometry": {
         "type": "Point",
@@ -625,7 +690,8 @@
         "marker-color": "#eb5f24",
         "marker-symbol": "grocery",
         "category": "Vending",
-        "image": "VM.jpg"
+        "image": "VM.jpg",
+        "Description": "Offers an assortment of crunchy snacks, cookies, chocolates, soft drinks and teas"
       },
       "geometry": {
         "type": "Point",
@@ -643,7 +709,8 @@
         "marker-color": "#eb5f24",
         "marker-symbol": "grocery",
         "category": "Vending",
-        "image": "VM.jpg"
+        "image": "VM.jpg",
+        "Description": "Offers an assortment of crunchy snacks, cookies, chocolates, soft drinks and teas"
       },
       "geometry": {
         "type": "Point",
@@ -661,7 +728,8 @@
         "marker-color": "#eb5f24",
         "marker-symbol": "grocery",
         "category": "Vending",
-        "image": "VM.jpg"
+        "image": "VM.jpg",
+        "Description": "Offers an assortment of crunchy snacks, cookies, chocolates, soft drinks and teas"
       },
       "geometry": {
         "type": "Point",
@@ -679,7 +747,8 @@
         "marker-color": "#eb5f24",
         "marker-symbol": "grocery",
         "category": "Vending",
-        "image": "VM.jpg"
+        "image": "VM.jpg",
+        "Description": "Offers an assortment of crunchy snacks, cookies, chocolates, soft drinks and teas"
       },
       "geometry": {
         "type": "Point",
@@ -697,7 +766,8 @@
         "marker-color": "#eb5f24",
         "marker-symbol": "grocery",
         "category": "Vending",
-        "image": "VM.jpg"
+        "image": "VM.jpg",
+        "Description": "Offers an assortment of crunchy snacks, cookies, chocolates, soft drinks and teas"
       },
       "geometry": {
         "type": "Point",
@@ -715,7 +785,9 @@
         "marker-color": "#1d1593",
         "marker-symbol": "museum",
         "category": "Museum",
-        "image": "ArtMuseum.jpg"
+        "image": "ArtMuseum.jpg",
+        "Open Time": "Tuesday - Thursday 9:30 am - 6:00 pm/ Friday - Monday Closed",
+        "Description": "The University Museum and Art Gallery is located at 90 Bonham Road, next to the University of Hong Kong's East Gate entrance. Its exhibition galleries occupy the Fung Ping Shan Building as well as the first floor of the TT Tsui Building, where also the Museum Store is housed on the ground floor."
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +805,9 @@
         "marker-color": "#1d1593",
         "marker-symbol": "museum",
         "category": "Museum",
-        "image": "GeoMuseum.jpg"
+        "image": "GeoMuseum.jpg",
+        "Open Time": "Monday - Friday 1:00 pm - 6:00 pm/ Saturday - Sunday Closed",
+        "Description": "The Stephen Hui Geological Museum is the first and only geological museum in Hong Kong. It is located on the ground and first floors of the James Hsioung Lee Building, in the University of Hong Kong Main Campus. The museum is part of the Department of Earth Sciences"
       },
       "geometry": {
         "type": "Point",
@@ -751,7 +825,9 @@
         "marker-color": "#eda302",
         "marker-symbol": "restaurant",
         "category": "Restaurant",
-        "image": ""
+        "image": "Bridge.jpg",
+        "Open Time": "Temporarily Closed",
+        "Description": "Staff restuarant"
       },
       "geometry": {
         "type": "Point",
@@ -770,7 +846,9 @@
         "marker-symbol": "grocery",
         "Ordering/Booking": "",
         "category": "Vending",
-        "image": "VM.jpg"
+        "image": "VM.jpg",
+        "Open Time": "",
+        "Description": "Offers an assortment of crunchy snacks, cookies, chocolates, soft drinks and teas"
       },
       "geometry": {
         "type": "Point",
@@ -788,7 +866,9 @@
         "name": "The Good Grade Pond",
         "floor": "G",
         "category": "Visitors Interest",
-        "image": "HGC.jpg"
+        "image": "HGC.jpg",
+        "Open Time": "",
+        "Description": "龟(turtle) in Cantonese is pronounced similar to grade. There are many turtles in this pond, which can bring good luck to study work."
       },
       "geometry": {
         "type": "Point",
@@ -806,7 +886,8 @@
         "floor": "G",
         "name": "Vniversity",
         "category": "Visitors Interest",
-        "image": "Vni.jpg"
+        "image": "Vni.jpg",
+        "Description": "On HKU's Tang Chi Ngong School of Chinese building, the English word \"university\" is spelled rather strangely. It is not a typo. This is actually an imitation of Latin writing. The ancient Romans often used V instead of V when carving large U."
       },
       "geometry": {
         "type": "Point",
@@ -824,7 +905,9 @@
         "name": "Visitor and Information Center",
         "floor": "G",
         "category": "Museum",
-        "image": "Visitor.jpg"
+        "image": "Visitor.jpg",
+        "Open Time": "Monday - Saturday 9:30 am - 5:00 pm/ Sunday 11:00 am - 5:00 pm",
+        "Description": "Here visitors or students can buy a series of souvenirs from HKU, such as sweaters, jewelry, badges, etc."
       },
       "geometry": {
         "type": "Point",
@@ -842,7 +925,10 @@
         "name": "Lily Pond",
         "floor": "G",
         "category": "Visitors Interest",
-        "image": "lilypond01.jpg"
+        "image": "lilypond01.jpg",
+        "Open Time": "",
+        "Menu": "",
+        "Description": "Before the construction of Lily Pond in the 50s, the area where Lily Pond lies had been a green meadow and already a chill-out place for students. Although the meadow vanished due to the campus development in the 80s, the Lily Pond has still been maintained and conserved as an important place for HKU members. The garden was named after Mr. Mong Kwok Ping, father of Mr. William MW Mong, a major donor of HKU, in 1985.  In late 2003, the University erected a statue of Dr. Sun Yat-sen at the garden."
       },
       "geometry": {
         "type": "Point",
@@ -860,7 +946,9 @@
         "floor": "G",
         "name": "The Red Wall",
         "category": "Visitors Interest",
-        "image": "RedWall.jpg"
+        "image": "RedWall.jpg",
+        "Open Time": "",
+        "Description": "The Red Wall, the most prominent location on the Centennial Campus, is a must-visit photo spot for visitors to the University of Hong Kong. The logo of the University of Hong Kong is engraved on the red wall."
       },
       "geometry": {
         "type": "Point",
@@ -878,7 +966,9 @@
         "name": "ParknShop 百佳超市",
         "floor": "2F",
         "category": "Vending",
-        "image": "PNS.jpg"
+        "image": "PNS.jpg",
+        "Open Time": "Temporarily Closed",
+        "Description": "The only supermarket on campus, you can buy fruit and vegetable snacks, as well as various daily necessities and stationery."
       },
       "geometry": {
         "type": "Point",
@@ -896,7 +986,9 @@
         "name": "HKU East Gate",
         "floor": "",
         "category": "Exit",
-        "image": "hkuEG.jpg"
+        "image": "hkuEG.jpg",
+        "Open Time": "",
+        "Description": "Go down from the elevator of kkl to reach east gate, which can lead to pokfulam road, and then go down to water street."
       },
       "geometry": {
         "type": "Point",
@@ -913,7 +1005,8 @@
         "marker-color": "#05bd9e",
         "name": "Exit E2",
         "category": "Exit",
-        "image": "E2.jpg"
+        "image": "E2.jpg",
+        "Description": "Go down from the stairs of Swire building to reach Pokfulam Road."
       },
       "geometry": {
         "type": "Point",
@@ -930,7 +1023,9 @@
         "marker-color": "#05bd9e",
         "name": "Exit E1",
         "category": "Exit",
-        "image": "Vni.jpg"
+        "image": "Vni.jpg",
+        "Open Time": "",
+        "Description": "Vniversity locates at here."
       },
       "geometry": {
         "type": "Point",
@@ -947,7 +1042,8 @@
         "marker-color": "#05bd9e",
         "name": "Exit E3",
         "category": "Exit",
-        "image": "E3.jpg"
+        "image": "E3.jpg",
+        "Description": "Directly lead to Kadoorie Biological Sciences Building"
       },
       "geometry": {
         "type": "Point",
@@ -965,7 +1061,8 @@
         "name": "HKU Station Exit A",
         "floor": "G, FB",
         "category": "Exit",
-        "image": "HKUGateA.jpg"
+        "image": "HKUGateA.jpg",
+        "Description": "A1 is on ground floor and A2 is on footbridge."
       },
       "geometry": {
         "type": "Point",
@@ -983,7 +1080,8 @@
         "name": "HKU West Gate",
         "floor": "",
         "category": "Exit",
-        "image": "hkuWG.jpg"
+        "image": "hkuWG.jpg",
+        "Description": "Get down through the elevator of composite building to reach West Gate on Pokfulam Road."
       },
       "geometry": {
         "type": "Point",
@@ -1001,7 +1099,8 @@
         "name": "Centennial Gate",
         "floor": "",
         "category": "Exit",
-        "image": "CGate.jpg"
+        "image": "CGate.jpg",
+        "Description": "Centennial gate leads to HKU Station C1 gate through the footbridge."
       },
       "geometry": {
         "type": "Point",
@@ -1018,7 +1117,9 @@
         "marker-color": "#538a2e",
         "name": "Library Corner",
         "category": "Study Area",
-        "image": "MainLibCorner.jpg"
+        "image": "MainLibCorner.jpg",
+        "Open Time": "Monday – Thursday 9:00am - 6:30pm/ Friday – Sunday 9:00am - 4:30pm",
+        "Description": "A special study area within the main library."
       },
       "geometry": {
         "type": "Point",
@@ -1035,7 +1136,9 @@
         "marker-color": "#ee68bd",
         "name": "Chong Yuet Ming Fountain",
         "category": "Visitors Interest",
-        "image": "Fountain.jpg"
+        "image": "Fountain.jpg",
+        "Open Time": "",
+        "Description": "Yuet Ming Fountain is next to University Museum and Art Gallery The University of Hong Kong and is located in Hong Kong."
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1156,8 @@
         "name": "Exit S2",
         "floor": "",
         "category": "Exit",
-        "image": ""
+        "image": "../hku.jpg",
+        "Description": ""
       },
       "geometry": {
         "type": "Point",
@@ -1071,7 +1175,9 @@
         "floor": "5F",
         "name": "Piano",
         "category": "Music",
-        "image": "CYMPiano.jpg"
+        "image": "CYMPiano.jpg",
+        "Menu": "",
+        "Description": "A colorful piano that anyone can play."
       },
       "geometry": {
         "type": "Point",
@@ -1089,7 +1195,8 @@
         "name": "Piano Room",
         "floor": "1F",
         "category": "Music",
-        "image": "musicroom01.jpg"
+        "image": "musicroom01.jpg",
+        "Description": "Book through portal"
       },
       "geometry": {
         "type": "Point",
@@ -1106,7 +1213,8 @@
         "marker-color": "#05bd9e",
         "name": "Exit S1",
         "category": "Exit",
-        "image": "S1.jpg"
+        "image": "S1.jpg",
+        "Description": "Go up to the peak through the graduate house exit."
       },
       "geometry": {
         "type": "Point",
@@ -1125,7 +1233,8 @@
         "name": "Sun Yat-sen Place",
         "image": "ZSGC.jpg",
         "floor": "G",
-        "Contact": ""
+        "Contact": "",
+        "Description": "Sun Yat-sen Place, the largest outdoor area at the Main Campus. Commonly recognised as “Happy Park” among HKU students, it has been a popular venue for major academic, social and cultural activities, including the Joint-university Mass Dance and the annual graduation class photo shoot."
       },
       "geometry": {
         "type": "Point",
@@ -1142,7 +1251,8 @@
         "marker-color": "#897595",
         "marker-symbol": "lodging",
         "category": "Hall",
-        "image": "skyl.jpg"
+        "image": "skyl.jpg",
+        "Description": "In 1985, funding was provided to The University of Hong Kong to establish the Simon K. Y. Lee Hall, a residential hall on campus that accommodates 300 students."
       },
       "geometry": {
         "type": "Point",
@@ -1159,7 +1269,8 @@
         "category": "Hall",
         "image": "LHT.jpg",
         "marker-color": "#897595",
-        "marker-symbol": "lodging"
+        "marker-symbol": "lodging",
+        "Description": "Since the establishment in 1951, Lady Ho Tung Hall remains as the only female residential hall in the University of Hong Kong. It locates in the student village I."
       },
       "geometry": {
         "type": "Point",
@@ -1176,7 +1287,8 @@
         "category": "Hall",
         "marker-color": "#897595",
         "marker-symbol": "lodging",
-        "image": "starr.jpg"
+        "image": "starr.jpg",
+        "Description": "Founded in 2001 with the help of the Hong Kong Jockey Club. It is the largest residential hall in HKU, accommodating 500 students."
       },
       "geometry": {
         "type": "Point",
@@ -1193,7 +1305,8 @@
         "category": "Hall",
         "marker-color": "#897595",
         "marker-symbol": "lodging",
-        "image": "ricci.jpg"
+        "image": "ricci.jpg",
+        "Description": "Ricci Hall, situated at 93 Pok Fu Lam Road, is one of the oldest residential halls at the University of Hong Kong. It is a boys only hall, with great history and deep heritage."
       },
       "geometry": {
         "type": "Point",
@@ -1210,7 +1323,8 @@
         "category": "Hall",
         "marker-color": "#897595",
         "marker-symbol": "lodging",
-        "image": "swire.jpg"
+        "image": "swire.jpg",
+        "Description": "Located in the east side of the campus, Swire Hall built on November 11, 1980 and named after the Swire Group, which funded the construction."
       },
       "geometry": {
         "type": "Point",
@@ -1227,7 +1341,8 @@
         "category": "Hall",
         "image": "lch.jpg",
         "marker-color": "#897595",
-        "marker-symbol": "lodging"
+        "marker-symbol": "lodging",
+        "Description": "Lee Chi Hung Hall is the only co-educational non-residential hall in the University. It is located on the ground floor of the Chong Yuet Ming Amenities"
       },
       "geometry": {
         "type": "Point",
@@ -1244,13 +1359,290 @@
         "name": "Centennial Garden",
         "marker-symbol": "star",
         "marker-color": "#ee68bd",
-        "image": "CentennialGarden.jpg"
+        "image": "CentennialGarden.jpg",
+        "Description": "The Centennial Garden was completed in 2012, together with the Centennial Campus, to maximise the green coverage of the campus. In the Centennial Garden stands the Bricks Wall displaying the names and stories of the supporters of the Bricks Campaign for Centennial Campus developments."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           114.13413316011429,
           22.282760241032484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shun Hing College",
+        "category": "Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "image": "shunhing.jpg",
+        "Description": "Shun Hing College is one of the HKU residential colleges, located at Jockey Club Student Village III, Kenndy Town. It is also called the A building."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12897527217865,
+          22.278739485825263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chi Sun College",
+        "category": "Hall",
+        "image": "lw2.jpg",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "Description": "Chi Sun College is one of the HKU residential colleges, located at Jockey Club Student Village III, Kenndy Town. It is also called the B building."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12868827581406,
+          22.278924393461875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lap-Chee College",
+        "marker-symbol": "lodging",
+        "marker-color": "#897595",
+        "category": "Hall",
+        "image": "lw2.jpg",
+        "Description": "Lap Chee College is one of the HKU residential colleges, located at Jockey Club Student Village III, Kenndy Town. It is also called the C building."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12857696413992,
+          22.279170109271814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New College",
+        "category": "Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "image": "lw.jpg",
+        "Description": "New College is one of the HKU residential colleges, located at Jockey Club Student Village III, Kenndy Town. It is also called the D building."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12859037518501,
+          22.279443126332037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HKU Lee Shau Kee Hall",
+        "marker-symbol": "lodging",
+        "marker-color": "#897595",
+        "category": "Hall",
+        "image": "lskhall.jpg",
+        "Description": "Lee Shau Kee Hall opened its doors at the end of August 2005. It is located in the Jockey Club Student Village II. The first affiliated student association was established among three new halls."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1309195384383,
+          22.279964028994495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morrison Hall",
+        "category": "Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "image": "morrison.jpg",
+        "Description": "The old male-only hall was demolished in 1968. The new Morrison Hall is re-established in 2005 with the aid from the old-Morrison alumni, located next to the Flora Ho Sport Centre. After St. John's and Lugard Halls, Morrison Hall was the third men's hostel built for students. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13059934973717,
+          22.280409850637493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "lodging",
+        "marker-color": "#897595",
+        "category": "Hall",
+        "name": "HKU Suen Chi Sun Hall",
+        "image": "scshall.jpg",
+        "Description": "Suen Chi Sun Hall was newly established in September 2005 together with the other two new halls as part of the Jockey Club Student Village II. It is next to the Flora Ho Sport Centre."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13055375218391,
+          22.280098365101946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#bdd930",
+        "marker-symbol": "tennis",
+        "name": "Flora Ho Sports Centre",
+        "category": "Sport",
+        "image": "flora.jpg",
+        "Open Time": "Monday - Sunday 7:30 am - 10:30 pm",
+        "Description": "The Flora Ho Sports Centre offers non-academic sport & recreation, health & fitness and competitive sports programmes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13121894001961,
+          22.28062453946725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Sport",
+        "marker-color": "#bdd930",
+        "marker-symbol": "tennis",
+        "name": "Stanley Ho Sports Centre",
+        "image": "stanley.jpg",
+        "Open Time": "Monday - Sunday 6:30 am - 10:30 pm",
+        "Description": "Located on Sha Wan Road, the Stanley Ho Sports Centre offers non-academic sport & recreation, health & fitness and competitive sports programmes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12582635879517,
+          22.266728652789475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Sport",
+        "name": "C Active",
+        "marker-color": "#bdd930",
+        "marker-symbol": "tennis",
+        "image": "cactive.jpg",
+        "Open Time": "Monday - Friday 7:30 am - 7:00 pm",
+        "Description": "Located in Centennial Campus, the C Active Sports Centre offers non-academic sport & recreation, health & fitness and competitive sports programmes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13371875882149,
+          22.283320531538354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Sport",
+        "name": "B Active",
+        "marker-color": "#bdd930",
+        "marker-symbol": "tennis",
+        "image": "bactive.jpg",
+        "Open Time": "Monday - Friday 7:30 am - 10:00 pm/ Saturday 7:30 am - 8:15 pm",
+        "Description": "Located near to the HKU Station B1 Exit, the B Active Sports Centre offers non-academic sport & recreation, health & fitness and competitive sports programmes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13660816848278,
+          22.285567255298954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yu Chun Keung Medical Library",
+        "category": "Library",
+        "marker-color": "#538a2e",
+        "marker-symbol": "library",
+        "image": "medlib.jpg",
+        "Open Time": "Monday – Thursday 9:00am - 7:00pm/ Friday – Sunday Closed",
+        "Description": "The Yu Chun Keung Medical Library, formerly the Lee Hysan Medical Library, is named in memory of the late Mr Yu Chun Keung for his generous donation and support. Completed in January 2002, it is designed as a state-of-the-art facility in the Faculty of Medicine Building, well equipped with sophisticated information technology to provide a virtual learning environment conducive to study and research."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12853270769119,
+          22.267182894002296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lee Hysan Hall",
+        "category": "Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "image": "hysan.jpg",
+        "Description": "Named after renowned land developer Lee Hysan and founded in 1992. Unity, Harmony, Choice and Responsibility, Positive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12909597158432,
+          22.269642721076092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wei Lun Hall",
+        "category": "Hall",
+        "marker-symbol": "lodging",
+        "marker-color": "#897595",
+        "image": "weilun.jpg",
+        "Description": "Founded with the help of the Wei Lun Foundation in 1994. Located on Sasoon Road.",
+        "Open Time": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.129401743412,
+          22.269925685291952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R.C. Lee Hall",
+        "category": "Hall",
+        "marker-color": "#897595",
+        "marker-symbol": "lodging",
+        "image": "rclee.jpg",
+        "Description": "Founded with the help of Richard Charles Lee in 1992. Located on 6 Sassoon Road. The founding warden is Dr. Robert Chung, who was the former director of the Public Opinion Programme of the University of Hong Kong. The hall motto is Liberty with Responsibility, Unity in Diversity."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12902623414993,
+          22.269955470965584
         ]
       }
     }

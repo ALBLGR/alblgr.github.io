@@ -459,7 +459,7 @@ function showPanel(cat){
             <img src="assets/POIimg/${i.get("image")}" class="card-img-top" style="height:10rem;object-fit: cover;">
             <div class="card-body">
               <h5 class="card-title">${i.get("name")}</h5>
-              <p class="card-text">Some quick example text.</p>
+              <p class="card-text">${i.get("Description")}</p>
             </div>
           </div>`;
         }
