@@ -157,8 +157,12 @@ map.on('click', function(e) {
         info.push(`<table class="table table-sm table-striped table-hover">
           <thead><tr><td>${feature.get("name")}<br><i class="caption">${feature.get("description")}</i></td>
           </tr></thead><tbody>
-          <tr><td colspan="2"><img onclick="showModalImg('assets/path/${feature.get("name")}.jpg','${feature.get("name")}')"
-          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("name")}.jpg"/></td></tr>
+          <tr><td colspan="1"><img onclick="showModalImg('assets/path/${feature.get("img")}','${feature.get("name")}')"
+          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("name")}.jpg"/></td>
+          <td colspan="1">
+          <img onclick="showModalImg('assets/path/${feature.get("img (reverse)")}','${feature.get("name")}')"
+          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("img (reverse)")}"/>
+          </td></tr>
           
           </tbody></table>
           `);
