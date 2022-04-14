@@ -158,7 +158,7 @@ map.on('click', function(e) {
           <thead><tr><td>${feature.get("name")}<br><i class="caption">${feature.get("description")}</i></td>
           </tr></thead><tbody>
           <tr><td colspan="1"><img onclick="showModalImg('assets/path/${feature.get("img")}','${feature.get("name")}')"
-          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("name")}.jpg"/></td>
+          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("img")}"/></td>
           <td colspan="1">
           <img onclick="showModalImg('assets/path/${feature.get("img (reverse)")}','${feature.get("name")}')"
           style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("img (reverse)")}"/>
