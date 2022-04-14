@@ -422,7 +422,8 @@ function showCardPOI(feature){
           <div class="card-body">
             <h5 class="card-title">${feature.get("name")}</h5>
             <h6 class="card-subtitle mb-2 text-muted">${feature.get("category")}</h6>
-            <p class="card-text">${""}</p>
+            <p class="card-text">${feature.get("Description")}</p>
+            
              ${feature.get("Ordering/Booking")?`<button onclick='showModal(\"${feature.get('Ordering/Booking')}\", "Ordering")' class='btnAction btn btn-primary'>Order</button>`:""}
              ${feature.get("Menu")?`<button onclick='showModal(\"assets/menu/${feature.get('Menu')}\", "Menu")' class='btnAction btn btn-primary'>Menu</button>`:""}
              ${feature.get("Contact")?`<button onclick='call(\"${feature.get('Contact')}\")' class='btnAction btn btn-primary'>Call</button>`:""}
