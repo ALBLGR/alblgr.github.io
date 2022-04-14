@@ -143,10 +143,11 @@ map.on('click', function(e) {
           class="btn btn-primary "><span class="oi oi-browser" title="booking" aria-hidden="true"></span></button>`:""}
           ${feature.get("Contact")?`<td><button onclick="call('${feature.get("Contact")}')"
           class="btn btn-primary "><span class="oi oi-headphones" title="call" aria-hidden="true"></span></button>`:""}
+
           </td>
           </tr></thead><tbody>
           <tr><td colspan="4"><img onclick="showModalImg('assets/POIimg/${feature.get("image")}','${feature.get("name")}')"  style="max-height:100px" class="mx-auto d-block" src="assets/POIimg/${feature.get("image")}"/></td></tr>
-          
+          ${feature.get("Open Time")?`<tr><td colspan="4"><caption>${feature.get("Open Time")}</caption></td></tr>`:""}
           </tbody></table>
           `);
         return;
@@ -423,7 +424,7 @@ function showCardPOI(feature){
             <h5 class="card-title">${feature.get("name")}</h5>
             <h6 class="card-subtitle mb-2 text-muted">${feature.get("category")}</h6>
             <p class="card-text">${feature.get("Description")}</p>
-            
+
              ${feature.get("Ordering/Booking")?`<button onclick='showModal(\"${feature.get('Ordering/Booking')}\", "Ordering")' class='btnAction btn btn-primary'>Order</button>`:""}
              ${feature.get("Menu")?`<button onclick='showModal(\"assets/menu/${feature.get('Menu')}\", "Menu")' class='btnAction btn btn-primary'>Menu</button>`:""}
              ${feature.get("Contact")?`<button onclick='call(\"${feature.get('Contact')}\")' class='btnAction btn btn-primary'>Call</button>`:""}
