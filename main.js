@@ -5,6 +5,32 @@ var view = new ol.View({
     zoom: 18,
     maxZoom: 20
   });
+var typeList = [];
+var typeIcon = new Object();
+class showCatControl extends ol.control.Control {
+  /**
+   * @param {Object} [opt_options] Control options.
+   */
+  constructor(opt_options) {
+    const options = opt_options || {};
+
+    const button = document.createElement('span');
+    button.innerHTML = `<span class="oi oi-magnifying-glass" title="" aria-hidden="true"></span> Explore`;
+    button.className = "btn btn-outline-dark";
+
+    const element = document.createElement('div');
+    element.className = 'explore ol-unselectable ol-control ';
+    element.appendChild(button);
+
+    super({
+      element: element,
+      target: options.target,
+    });
+
+    button.addEventListener('click',showCat, false);
+  }
+
+}
 
 var map = new ol.Map({
   layers: [
@@ -26,11 +52,13 @@ var map = new ol.Map({
       collapsed: false
     }
   }).extend([
-    new ol.control.ScaleLine() // Add scale line to the defaults controls
+    new ol.control.ScaleLine(), // Add scale line to the defaults controls,
+    new showCatControl()
   ]),
   target: 'map',
   view: view
 });
+
 
 
 //geolocation --------
@@ -123,7 +151,8 @@ map.on('click', function(e) {
           <td><button onclick="showModal('assets/floorplan/${feature.get("floorplan")}','${feature.get("name")}')" 
           class="btn btn-primary "><span class="oi oi-project" title="floor plan" aria-hidden="true"></span></button></td></tr></thead><tbody>
           <tr><td colspan="2"><img onclick="showModalImg('assets/building/${feature.get("image")}','${feature.get("name")}')"
-          style="max-height:100px" class="mx-auto d-block" src="assets/building/${feature.get("image")}"/></td></tr>
+          style="max-height:100px" class="mx-auto d-block" src="assets/building/${feature.get("image")}"
+          onerror="this.src='assets/hku.jpg'"/></td></tr>
           
           </tbody></table>
           `);
@@ -146,7 +175,8 @@ map.on('click', function(e) {
 
           </td>
           </tr></thead><tbody>
-          <tr><td colspan="4"><img onclick="showModalImg('assets/POIimg/${feature.get("image")}','${feature.get("name")}')"  style="max-height:100px" class="mx-auto d-block" src="assets/POIimg/${feature.get("image")}"/></td></tr>
+          <tr><td colspan="4"><img onclick="showModalImg('assets/POIimg/${feature.get("image")}','${feature.get("name")}')"  style="max-height:100px" class="mx-auto d-block" src="assets/POIimg/${feature.get("image")}"
+          onerror="this.src='assets/hku.jpg'"/></td></tr>
           ${feature.get("Open Time")?`<tr><td colspan="4"><caption>${feature.get("Open Time")}</caption></td></tr>`:""}
           </tbody></table>
           `);
@@ -159,10 +189,12 @@ map.on('click', function(e) {
           <thead><tr><td>${feature.get("name")}<br><i class="caption">${feature.get("description")}</i></td>
           </tr></thead><tbody>
           <tr><td colspan="1"><img onclick="showModalImg('assets/path/${feature.get("img")}','${feature.get("name")}')"
-          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("img")}"/></td>
+          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("img")}"
+          onerror="this.src='assets/hku.jpg'"/></td>
           <td colspan="1">
           <img onclick="showModalImg('assets/path/${feature.get("img (reverse)")}','${feature.get("name")}')"
-          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("img (reverse)")}"/>
+          style="max-height:100px" class="mx-auto d-block" src="assets/path/${feature.get("img (reverse)")}" 
+          onerror="this.src='assets/hku.jpg'"/>
           </td></tr>
           
           </tbody></table>
@@ -194,11 +226,11 @@ var listenerKey = sourceVector.on('change', function(e) {
   if (sourceVector.getState() == 'ready') {
     // hide loading icon
     // ...
-    var typeList = [];
 
     for (i of sourceVector.getFeatures()) {
       if (i.get("marker-symbol"))
         typeList.push(i.get("category"));
+        typeIcon[i.get('category')] = i.get("marker-symbol");
     }
 
     typeList = [...new Set(typeList)];
@@ -419,7 +451,8 @@ function showCardBuilding(title,subtitle,body,img,detail,button){
 }
 
 function showCardPOI(feature){
-  $("#card")[0].innerHTML += `<img onclick="showModalImg('assets/POIimg/${feature.get("image")}')" src="assets/POIimg/${feature.get("image")}" class="card-img-top">
+  $("#card")[0].innerHTML += `<img  onerror="this.src='assets/hku.jpg'"
+            onclick="showModalImg('assets/POIimg/${feature.get("image")}')" src="assets/POIimg/${feature.get("image")}" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">${feature.get("name")}</h5>
             <h6 class="card-subtitle mb-2 text-muted">${feature.get("category")}</h6>
@@ -442,7 +475,7 @@ function showModal(url,title){
 
 function showModalImg(img,title){
   $("#exampleModalLabel")[0].innerHTML = title;
-  $("#modalBody")[0].innerHTML = `<img style="width:100%;max-height: 550px;" src="${img}"></img>`;
+  $("#modalBody")[0].innerHTML = `<img onerror="this.src='assets/hku.jpg'" style="width:100%;max-height: 550px;" src="${img}"></img>`;
 
   $("#exampleModal").modal("toggle");
 }
@@ -451,14 +484,37 @@ function call(tel){
   window.location.href=`tel://${tel}`;
 }
 
-function showPanel(cat){
-  $("#exampleModalLabel")[0].innerHTML = cat;
+function showCat(){
+  $("#exampleModalLabel")[0].innerHTML = "Explore Facilities";
+  $("#modalBody")[0].innerHTML = '<div class="container"><div class="row" id="cardrow">';
+  for (i of typeList) {
+        if (i) {
+          $("#cardrow")[0].innerHTML += `
+            <div class="card card-panel col-12 col-md-6 col-lg-4 col-sm-12 col-xs-6" onclick="showPanel('${i}',false)">
+            <div class="card-body">
+              <h6 class="card-title"><img style="width:1.5rem;height:2rem;object-fit:cover;object-position:top"
+              src="https://a.tiles.mapbox.com/v4/marker/pin-m-${typeIcon[i]}+55ff11@2x.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXFhYTA2bTMyeW44ZG0ybXBkMHkifQ.gUGbDOPUN1v1fTs5SeOR4A
+"/> ${i}</h6>
+            </div>
+          </div>`;
+        }
+    }
+    $("#modalBody")[0].innerHTML +="</div></div>";
+  
+
+  $("#exampleModal").modal("toggle");
+}
+
+function showPanel(cat,onOpenToggleModal=true){
+  $("#exampleModalLabel")[0].innerHTML = `<img style="width:1.5rem;height:2rem;object-fit:cover;object-position:top"
+              src="https://a.tiles.mapbox.com/v4/marker/pin-m-${typeIcon[cat]}+55ff11@2x.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXFhYTA2bTMyeW44ZG0ybXBkMHkifQ.gUGbDOPUN1v1fTs5SeOR4A
+"/> `+ cat;
   $("#modalBody")[0].innerHTML = '<div class="container"><div class="row" id="cardrow">';
   for (i of sourceVector.getFeatures()) {
         if (i.get("category") == cat) {
           $("#cardrow")[0].innerHTML += `
             <div class="card card-panel col-12 col-md-6 col-lg-4 col-sm-12 col-xs-12" onclick="focusOnFeature('${i.get('name')}')">
-            <img src="assets/POIimg/${i.get("image")}" class="card-img-top" style="height:10rem;object-fit: cover;">
+            <img onerror="this.src='assets/hku.jpg'" src="assets/POIimg/${i.get("image")}" class="card-img-top" style="height:10rem;object-fit: cover;">
             <div class="card-body">
               <h5 class="card-title">${i.get("name")}</h5>
               <p class="card-text">${i.get("Description")}</p>
@@ -469,7 +525,9 @@ function showPanel(cat){
     $("#modalBody")[0].innerHTML +="</div></div>";
   
 
-  $("#exampleModal").modal("toggle");
+  if(onOpenToggleModal){
+    $("#exampleModal").modal("toggle");
+  }
 }
 
 window.onresize = function()

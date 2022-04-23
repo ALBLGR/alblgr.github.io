@@ -6,6 +6,11 @@
   font-size: 8px !important;
 }
 
+.explore{
+  top: 1em;
+  left:  3em;
+}
+
 #logo{
   height: 2em;
 }
