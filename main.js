@@ -17,10 +17,22 @@ class showCatControl extends ol.control.Control {
     const button = document.createElement('span');
     button.innerHTML = `<span class="oi oi-magnifying-glass" title="" aria-hidden="true"></span> Explore`;
     button.className = "btn btn-outline-dark";
+    const showGeo = document.createElement('span');
+    showGeo.innerHTML = `<span class="oi oi-compass" title="" aria-hidden="true"></span> Find me`;
+    showGeo.onclick = function(){
+      geolocation.setTracking(true);
+    if(geolocation.getPosition()){
+      map.getView().setCenter(geolocation.getPosition());
+    map.getView().setZoom(18);
+    }
+    }
+    showGeo.className = "btn btn-outline-dark";
 
     const element = document.createElement('div');
     element.className = 'explore ol-unselectable ol-control ';
     element.appendChild(button);
+    element.append(" ");
+    element.appendChild(showGeo);
 
     super({
       element: element,
